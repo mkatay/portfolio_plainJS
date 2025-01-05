@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js"></script>
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="burger" id="burger"onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+                <ul id="burger-menu">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">About me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+
+            <ul id="nav-list">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">About me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="hero"class="hero">
+          <!-- Hero szekció tartalom -->
+           <h1>Be the Creator and Explorer of the Web World!</h1>
+         
+           <img src="me.jpg" alt="me">
+         
+        </div>
+      </header>
+      
+      <main>
+        <section id="services" class="services">
+          <!-- Szolgáltatások -->
+           <h4>About me</h4>
+           <p>I am a teacher, and I am delighted to teach one of the most beautiful and fascinating subjects: web programming. I have the privilege of working with intelligent, talented, and dedicated young people. I teach both frontend and backend development, striving to impart knowledge of the latest and most modern technologies.</p>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h4>Featured works</h4>
+          <!-- Portfólió -->
+        </section>
+      </main>
+      
+      <footer id="contact">
+        <div class="contact-container">
+          <h2>Kapcsolat</h2>
+         
+          <div class="contact-info">
+            <div class="contact-method">
+              <h3>Elérhetőségeink</h3>
+              <ul>
+                <li><strong>📧</strong> info@company.com</li>
+                <li><strong>☎️</strong> +36 1 234 5678</li>
+                <li><strong>🗺️</strong> 1234 Budapest, Fő utca 1.</li>
+              </ul>
+            </div>
+      
+            <div class="contact-form">
+              <h3>Lépjen velünk kapcsolatba</h3>
+              <form action="#" method="POST">
+                <label for="name">Név</label>
+                <input type="text" id="name" name="name" placeholder="Írja be nevét" required>
+      
+                <label for="email">Email cím</label>
+                <input type="email" id="email" name="email" placeholder="Írja be email címét" required>
+      
+                <label for="message">Üzenet</label>
+                <textarea id="message" name="message" placeholder="Írja meg üzenetét" required></textarea>
+      
+                <button type="submit">Küldés</button>
+              </form>
+            </div>
+          </div>
+      
+          <div class="map">
+            <h3>Találja meg irodánkat</h3>
+            <!-- Itt egy Google Maps iframe beágyazása is helyet kaphat -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.237729775272!2d19.685176676189467!3d46.91770787113487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da039cc46819%3A0x76e03484e50b2f33!2zS2Vjc2tlbcOpdGkgU1pDIEthbmTDsyBLw6FsbcOhbiBUZWNobmlrdW0!5e0!3m2!1sen!2shu!4v1736096931631!5m2!1sen!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           
+          </div>
+        </div>
+      </footer>
+      
+      
+</body>
+</html>
