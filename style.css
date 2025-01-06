@@ -108,7 +108,12 @@ section h4 {
     margin-bottom: 1rem;
 }
 
+.portfolio img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 5px;
 
+}
 /* Burger menü - a media-query előtt kell legyen!!!*/
 nav ul {
     flex-direction: column;
