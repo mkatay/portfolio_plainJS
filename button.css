@@ -1,0 +1,31 @@
+/*https://cssnippets.shefali.dev/buttons*/
+button{
+    width: 160px;
+    height: 60px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    border: 1px solid #ff5722;
+    z-index: 0;
+}
+button:hover:after {
+    top: 0;
+    left: 0;
+}
+button:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    border-radius: 8px;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    background-color:  #ff5722; /* Élénk narancssárga, kiemeli a gombot */
+}

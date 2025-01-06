@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="button.css">
     <script src="data.js"></script>
     <script src="main.js" defer></script>
+
     <title>Document</title>
 </head>
 <body>
@@ -45,7 +48,9 @@
           <!-- Szolgáltatások -->
            <h4>About me</h4>
            <p>I am a teacher, and I am delighted to teach one of the most beautiful and fascinating subjects: web programming. I have the privilege of working with intelligent, talented, and dedicated young people. I teach both frontend and backend development, striving to impart knowledge of the latest and most modern technologies.</p>
-        </section>
+           <p>Web programming gives you the opportunity to bring your ideas to life. Whether you want to create a blog, an online store, or a full-fledged social platform, the knowledge we acquire here will open every door for you. Moreover, the joy of creative expression, problem-solving, and creation are all part of this journey.</p>
+           <p> Every website you visit, every app you use, is someone's work who once started exactly where you are now. And now you can embark on this exciting journey too! This is not just a skill, but an opportunity to create, develop, and even change the world. The future is digital, and you will be the builders of this future.</p>
+          </section>
         <section id="portfolio" class="portfolio">
             <h4>Featured works</h4>
           <!-- Portfólió -->
@@ -68,26 +73,24 @@
       
             <div class="contact-form">
               <h3>Lépjen velünk kapcsolatba</h3>
-              <form action="#" method="POST">
-                <label for="name">Név</label>
-                <input type="text" id="name" name="name" placeholder="Írja be nevét" required>
-      
-                <label for="email">Email cím</label>
-                <input type="email" id="email" name="email" placeholder="Írja be email címét" required>
-      
-                <label for="message">Üzenet</label>
-                <textarea id="message" name="message" placeholder="Írja meg üzenetét" required></textarea>
-      
-                <button type="submit">Küldés</button>
-              </form>
+              <div class="form4">
+                <form action="">
+                  <span>Contact Form</span>
+                  <input type="text" placeholder="First Name" required>
+                  <input type="text" placeholder="Last Name" required>
+                  <input type="email" placeholder="Email" required>
+                  <input type="number" placeholder="Phone Number" required>
+                  <textarea name="message" placeholder="Message"></textarea>
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
             </div>
-          </div>
       
-          <div class="map">
-            <h3>Találja meg irodánkat</h3>
-            <!-- Itt egy Google Maps iframe beágyazása is helyet kaphat -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.237729775272!2d19.685176676189467!3d46.91770787113487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da039cc46819%3A0x76e03484e50b2f33!2zS2Vjc2tlbcOpdGkgU1pDIEthbmTDsyBLw6FsbcOhbiBUZWNobmlrdW0!5e0!3m2!1sen!2shu!4v1736096931631!5m2!1sen!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-           
+            <div class="map">
+              <h3>Találja meg irodánkat</h3>
+              <!-- Itt egy Google Maps iframe beágyazása is helyet kaphat -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.237729775272!2d19.685176676189467!3d46.91770787113487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743da039cc46819%3A0x76e03484e50b2f33!2zS2Vjc2tlbcOpdGkgU1pDIEthbmTDsyBLw6FsbcOhbiBUZWNobmlrdW0!5e0!3m2!1sen!2shu!4v1736096931631!5m2!1sen!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            </div>
           </div>
         </div>
       </footer>
